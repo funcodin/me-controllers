@@ -210,7 +210,7 @@
                 <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                 <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
                 <includes><include>**/*</include></includes>
-                <repositoryName>me-controller</repositoryName>      <!-- github repo name -->
+                <repositoryName>me-controllers</repositoryName>      <!-- github repo name -->
                 <repositoryOwner>funcodin</repositoryOwner>    <!-- github username  -->
             </configuration>
             <executions>
